@@ -1,5 +1,5 @@
 def unsafe?(speed)
-	answer = speed_to_i
+	speed = answer.to_i
 	if answer < 40 && answer > 60
 		puts "true"
 	else
